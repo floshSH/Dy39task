@@ -20,6 +20,6 @@ app.use("/stu",studentRotes);
 app.use("/ment", mentorRoutes);
 connectDb();
 
-app.listen(process.env.PORT, ()=>{
-    console.log(`Server is running on port ${process.env.PORT}`);
+app.listen(process.env.port, ()=>{
+    console.log(`Server is running on port ${process.env.port}`);
 });
